@@ -1,0 +1,62 @@
+#vehicle {
+    width: 90px;
+    left: 50%;
+    top: 50%;
+    position: fixed
+}
+
+body, html {
+    overflow: hidden;
+    margin: 0px;
+    height: 100%;
+}
+
+#vehicleData {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+}
+
+#roll {
+    text-align: center;
+    position: fixed;
+    left: 40%;
+    top: 0%;
+}
+
+#rollValue {
+    margin: 0px;
+    margin-bottom: 4%;
+}
+
+#pitch {
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 0%;
+}
+
+#pitchValue {
+    margin: 0px;
+    margin-bottom: 4%;
+}
+
+#yaw {
+    text-align: center;
+    position: fixed;
+    left: 60%;
+    top: 0%;
+}
+
+#yawValue {
+    margin: 0px;
+    margin-bottom: 4%;
+}
+
+#increaseRoll {
+    margin-bottom: 8%;
+}
+
+#increasePitch {
+    margin-bottom: 8%;
+}
